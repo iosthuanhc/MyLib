@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1201BB1E155724008DB1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1201BA1E155724008DB1D7 /* AppDelegate.swift */; };
+		7F1201BD1E155724008DB1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1201BC1E155724008DB1D7 /* ViewController.swift */; };
+		7F1201C01E155724008DB1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1201BE1E155724008DB1D7 /* Main.storyboard */; };
+		7F1201C31E155724008DB1D7 /* TestAVCapture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F1201C11E155724008DB1D7 /* TestAVCapture.xcdatamodeld */; };
+		7F1201C51E155724008DB1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1201C41E155724008DB1D7 /* Assets.xcassets */; };
+		7F1201C81E155724008DB1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1201C61E155724008DB1D7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1201B71E155724008DB1D7 /* TestAVCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAVCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1201BA1E155724008DB1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F1201BC1E155724008DB1D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F1201BF1E155724008DB1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1201C21E155724008DB1D7 /* TestAVCapture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestAVCapture.xcdatamodel; sourceTree = "<group>"; };
+		7F1201C41E155724008DB1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1201C71E155724008DB1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1201C91E155724008DB1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1201B41E155724008DB1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1201AE1E155724008DB1D7 = {
+			isa = PBXGroup;
+			children = (
+				7F1201B91E155724008DB1D7 /* TestAVCapture */,
+				7F1201B81E155724008DB1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1201B81E155724008DB1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1201B71E155724008DB1D7 /* TestAVCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1201B91E155724008DB1D7 /* TestAVCapture */ = {
+			isa = PBXGroup;
+			children = (
+				7F1201BA1E155724008DB1D7 /* AppDelegate.swift */,
+				7F1201BC1E155724008DB1D7 /* ViewController.swift */,
+				7F1201BE1E155724008DB1D7 /* Main.storyboard */,
+				7F1201C41E155724008DB1D7 /* Assets.xcassets */,
+				7F1201C61E155724008DB1D7 /* LaunchScreen.storyboard */,
+				7F1201C91E155724008DB1D7 /* Info.plist */,
+				7F1201C11E155724008DB1D7 /* TestAVCapture.xcdatamodeld */,
+			);
+			path = TestAVCapture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1201B61E155724008DB1D7 /* TestAVCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1201CC1E155724008DB1D7 /* Build configuration list for PBXNativeTarget "TestAVCapture" */;
+			buildPhases = (
+				7F1201B31E155724008DB1D7 /* Sources */,
+				7F1201B41E155724008DB1D7 /* Frameworks */,
+				7F1201B51E155724008DB1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAVCapture;
+			productName = TestAVCapture;
+			productReference = 7F1201B71E155724008DB1D7 /* TestAVCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1201AF1E155724008DB1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "HA CONG THUAN";
+				TargetAttributes = {
+					7F1201B61E155724008DB1D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P82S49663G;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7F1201B21E155724008DB1D7 /* Build configuration list for PBXProject "TestAVCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1201AE1E155724008DB1D7;
+			productRefGroup = 7F1201B81E155724008DB1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1201B61E155724008DB1D7 /* TestAVCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1201B51E155724008DB1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1201C81E155724008DB1D7 /* LaunchScreen.storyboard in Resources */,
+				7F1201C51E155724008DB1D7 /* Assets.xcassets in Resources */,
+				7F1201C01E155724008DB1D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1201B31E155724008DB1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1201BD1E155724008DB1D7 /* ViewController.swift in Sources */,
+				7F1201C31E155724008DB1D7 /* TestAVCapture.xcdatamodeld in Sources */,
+				7F1201BB1E155724008DB1D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F1201BE1E155724008DB1D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1201BF1E155724008DB1D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1201C61E155724008DB1D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1201C71E155724008DB1D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1201CA1E155724008DB1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tau Ngo Van (7D7S35JN42)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P82S49663G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4672b26f-c8f7-4bb8-a3d5-a748b79c1a4e";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1201CB1E155724008DB1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tau Ngo Van (7D7S35JN42)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P82S49663G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4672b26f-c8f7-4bb8-a3d5-a748b79c1a4e";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1201CD1E155724008DB1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestAVCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = runsystem.vn.testservice.TestAVCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F1201CE1E155724008DB1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestAVCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = runsystem.vn.testservice.TestAVCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1201B21E155724008DB1D7 /* Build configuration list for PBXProject "TestAVCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1201CA1E155724008DB1D7 /* Debug */,
+				7F1201CB1E155724008DB1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1201CC1E155724008DB1D7 /* Build configuration list for PBXNativeTarget "TestAVCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1201CD1E155724008DB1D7 /* Debug */,
+				7F1201CE1E155724008DB1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F1201C11E155724008DB1D7 /* TestAVCapture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F1201C21E155724008DB1D7 /* TestAVCapture.xcdatamodel */,
+			);
+			currentVersion = 7F1201C21E155724008DB1D7 /* TestAVCapture.xcdatamodel */;
+			path = TestAVCapture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F1201AF1E155724008DB1D7 /* Project object */;
+}
